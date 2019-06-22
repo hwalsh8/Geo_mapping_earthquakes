@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
 }
-.jumbotron {
+ /* .jumbotron {
   text-align: center;
   color: white;
   position: relative;
@@ -16,13 +16,13 @@ body {
 
 #map{
   height: 900px;
-}
-/* set map, body, and html to 100% of the screen size
+} */
+/* set map, body, and html to 100% of the screen size */
 #map,
 body,
 html {
   height: 100%;
-} */
+} 
 
 .legend {
   line-height: 18px;

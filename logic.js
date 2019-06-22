@@ -27,38 +27,6 @@ function createFeatures(earthquakeData) {
   createMap(earthquakes);
 }
 
-// function fillColor(magnituge) {
-
-//     switch (true) {
-//       case magnituge >= 6.0:
-//         return 'red';
-//         break;
-      
-//       case magnituge >= 5.0:
-//         return 'orangered';
-//         break;
-
-//       case magnituge >= 4.0:
-//         return 'darkorange';
-//         break;
-      
-//       case magnituge >= 3.0:
-//         return 'orange';
-//         break;
-
-//       case magnituge >= 2.0:
-//         return 'gold';
-//         break;
-
-//       case magnituge >= 1.0:
-//         return 'yellow';
-//         break;
-
-//       default:
-//         return 'greenyellow';
-//     };
-// };
-
 //Colors for circles and legends
 function getColor(m) {
     console.log(m);
